@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-services</title>
+    <link rel="stylesheet" href="myservices.css">
+    <script src="https://kit.fontawesome.com/fff5145137.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header id="home">
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button class="btn-login" >Login</button>
+        </nav>
+    </header><br><br>
+    
+    <div id="add-products-form">
+        <h2>Add a new Product</h2><br>
+        <form>
+            <label for="prod-name">Product Name</label>
+            <input type="text" id="prod-name" required><br><br>
+            <label for="prod-Id">Product ID</label>
+            <input type="number" id="prod-Id" required><br><br>
+            <label for="prod-category">Product Category</label>
+            <select id="prod-category" required>
+                <option>Drinks</option>
+                <option>Foods</option>
+                <option>Snacks</option>
+            </select><br><br>
+            <label for="prod-exp-date">Product Expiration Date</label>
+            <input type="date" id="prod-exp-date" required><br><br>
+            <input type="submit" id="save-btn-add-new-prod" value="Save" required>
+            <input type="reset" id="reset-btn-add-new-prod" value="Reset"><br><br>
+        </form>
+    </div>
+</div>
+</div><br><br><hr>
+<div id="view-products">
+<h2 >View Products</h2><br>
+<table style="border: 3px solid white; text-align: center;">
+    <tr>
+        <th>Product Name</th>
+        <th>Product Id</th>
+        <th>Product Category</th>
+        <th>Product Expiration Date</th>
+    </tr>
+    <tr>
+        <td>Esperia</td>
+        <td>10235</td>
+        <td>Drinks</td>
+        <td>10/12/2025</td>
+    </tr>
+    <tr>
+        <td>Lemonade</td>
+        <td>10236</td>
+        <td>Drinks</td>
+        <td>10/11/2025</td>
+    </tr>
+    <tr>
+        <td>Cheetos</td>
+        <td>10245</td>
+        <td>Snacks</td>
+        <td>10/12/2025</td>
+    </tr>
+</table><br><br>
+
+</body>
+</html>

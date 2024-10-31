@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    position:relative;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    backdrop-filter: blur(3px);
+}
+.logo{
+    font-size: 2em; 
+    user-select: none;
+    color:gold
+}
+.navigation a{
+   position:relative;
+   font-size: 1.1em;
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 40px;
+   transition: 0.5s;
+}
+.navigation .btn-login{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.navigation .btn-login:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+body {
+    background-size: auto;
+    background-image: url(WareHouse.jpg);
+    background-position: bottom;
+      font-size: large;
+}
+#add-products-form{
+    height: auto;
+    width: 400px;
+    border: 3px solid white;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white; 
+    transition: 0.4s;   
+}
+#add-products-form:hover{
+    backdrop-filter: blur(3px);
+}
+#save-btn-add-new-prod{
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    border:3px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    color:white;
+    transition: 0.4s;
+}
+#save-btn-add-new-prod:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+}
+#reset-btn-add-new-prod{
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    border:3px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    color:white;
+    transition: 0.4s;
+}
+#reset-btn-add-new-prod:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+}
+#view-products{
+    padding-top: 25px;
+    justify-content: center;
+    display: flexbox;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    color:white;
+}
+#view-products:hover{
+    backdrop-filter:blur(5px);
+}
+table, th, td {
+    color:black;
+    margin: 0 auto;
+    border:1px solid white;
+    border-radius: 5px;
+  }

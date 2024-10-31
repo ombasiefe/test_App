@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    position:relative;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    backdrop-filter: blur(3px);
+}
+.logo{
+    font-size: 2em; 
+    user-select: none;
+    color:gold
+}
+.navigation a{
+   position:relative;
+   font-size: 1.1em;
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 40px;
+   transition: 0.5s;
+}
+.navigation .btn-login{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.navigation .btn-login:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+body {
+    background-size: auto;
+    background-image: url(WareHouse.jpg);
+    background-position: bottom;
+      font-size: large;
+}
+#second-page-welcome{
+ background-image: url(WareHouse.jpg);
+ background-position: top;
+}
+#services{
+    height: 430px;
+    width: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    color: #fff;
+   margin-top: -50px;
+}
+#menu-view-products{
+    width:140px;
+    height: 140px;
+    padding-top: 20px;
+    background:transparent;
+    border:3px solid white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+#menu-view-products:hover{
+    text-decoration: underline;
+   backdrop-filter: blur(3px);
+}
+#menu-add-products{
+    width:140px;
+    height: 140px;
+    padding-top: 20px;
+    background:transparent;
+    border:3px solid white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: 0.4s;
+    color:#fff
+}
+#menu-add-products:hover{
+    text-decoration: underline;
+    backdrop-filter: blur(7px);
+}
